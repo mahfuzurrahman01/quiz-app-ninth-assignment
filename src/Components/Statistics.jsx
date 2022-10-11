@@ -4,7 +4,6 @@ import { ItemsContext } from './Main';
 
 const Statistics = () => {
     const data = useContext(ItemsContext)
-    console.log(data)
     return (
         <div style={{ width: '80%', height: 400 }} className='my-7 mx-auto'>
         <ResponsiveContainer>

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import { EyeIcon } from '@heroicons/react/24/solid';
-import { Icons, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 const Quiz = () => {
     const items = useLoaderData();
     const [saveId, setSaveId] = useState([])
