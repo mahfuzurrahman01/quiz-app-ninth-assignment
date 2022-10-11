@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const QuizCart = ({ item }) => {
     return (
@@ -11,7 +12,7 @@ const QuizCart = ({ item }) => {
             </div>
             <div className='flex justify-between items-center'>
                 <p className='text-2xl bg-slate-200 rounded my-2 py-1 px-7 font-bold font-sans text-slate-700'>{item.name}</p>
-                <button className='bg-red-500 py-1 px-7 text-lg hover:bg-red-700 duration-300 text-white rounded'>Start</button>
+                <Link to={`/quiz/${item.id}`}><button className='bg-red-500 py-1 px-7 text-lg hover:bg-red-700 duration-300 text-white rounded'>Start</button></Link>
             </div>
         </div>
     );
