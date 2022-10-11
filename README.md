@@ -1,17 +1,16 @@
 # Delta-Q
-The Delta-Q project is based on a online quiz test site.
+The Delta-Q project is an online quiz test site.
 
 ## Live site link: 
 
 
 ### Description:
-
-**this site have 3 main routes and a dynamic routes.when a user first go to this site , first the home page where as always there is a navbar (obviously responsive).And then there is a banner or header section. with fetching data from an Api we just load 4 items card. this card have one image and a name and a button.first-letter:
+ This site have 3 main routes and a dynamic routes.when user first go to this site , first the home page where as always there is a navbar (obviously responsive).And then there is a banner or header section. with fetching data from an Api we just load 4 items card. this card have one image and a name and a button.
 
 
 ### Card button works:
 
-when user click the cards button it will show a quiz or MCQ page.which is a different route link with dynamic state.
+when user click the cards button it will show a quiz or MCQ page.which is a different route with dynamic path calling.
 
 ### Quiz:
 
