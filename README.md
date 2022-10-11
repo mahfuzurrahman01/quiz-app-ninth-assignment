@@ -2,7 +2,7 @@
 The Delta-Q project is an online quiz test site.
 
 ## Live site link: 
-https://magenta-bienenstitch-4ff61e.netlify.app/
+https://ninth-assignment-01.netlify.app/
 
 ### Description:
  This site have 3 main routes and 1 dynamic routes.when user first go to this site , first the home page where as always there is a navbar (obviously responsive).And then there is a banner or header section. with fetching data from an Api we just load 4 items card. this card have one image and a name and a button.
