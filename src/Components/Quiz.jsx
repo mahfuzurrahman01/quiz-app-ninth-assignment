@@ -24,7 +24,7 @@ const Quiz = () => {
                 {
                     questions.map(item =>
                         <div className='bg-gray-200 md:w-3/4 sm:w-full rounded-md lg:p-5 md:p-3 sm:p-2 p-2 my-4 mx-auto relative' key={item.id}>
-                            <p className='bg-slate-500 p-3 rounded-md bg-opacity-70 border-b-2'>{item.question}</p>
+                            <p className='bg-slate-500 py-3 rounded-md bg-opacity-70 border-b-2 px-6'>{item.question.replace('<p>','').replace('</p>','')}</p>
                             <div className='grid md:grid-cols-2 grid-cols-1 gap-4 my-3'>
                                 {
                                     item.options.map(option => <li key={option} onClick={()=>answerHandler(option,item.correctAnswer)} className='bg-slate-300 py-1 px-4 w-3/4 rounded hover:bg-red-500 hover:text-white ease-in duration-300 cursor-pointer'>{option}</li>)
